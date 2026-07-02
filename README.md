@@ -1,502 +1,128 @@
-# 📝 Online Notepad
+# EMI Calculator
 
-<div align="center">
-
-# ✨ Modern Web-Based Notepad ✨
-
-A lightweight, fast, and feature-rich online text editor built using **HTML5**, **CSS3**, and **JavaScript**.
-
-Designed for productivity with support for **multiple tabs**, **auto-save**, **dark mode**, **find & replace**, **font customization**, **spell checking**, and much more.
-
-### Crafted with ❤️ by Soumyadeep Basu
-
-![HTML5](https://img.shields.io/badge/HTML5-Markup-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-success)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
-</div>
+A modern, responsive **EMI (Equated Monthly Installment) Calculator** built using **HTML5**, **Tailwind CSS**, **JavaScript**, and **Chart.js**. The application enables users to calculate loan EMIs, visualize loan repayment, generate an amortization schedule, and export repayment details in PDF and Excel formats.
 
 ---
 
-# 📖 Overview
+## Features
 
-Online Notepad is a browser-based note-taking application that provides a clean, distraction-free writing experience without requiring installation.
+### Loan Calculator
 
-The application automatically saves notes locally in the browser and restores them whenever the user revisits the application.
+- Calculate EMI based on:
+  - Loan Amount
+  - Annual Interest Rate
+  - Loan Tenure
+  - Payment Frequency (Monthly, Quarterly, Half-Yearly, Yearly)
+- Select the loan start date.
+- Real-time EMI calculation with instant updates.
 
-It is designed to demonstrate:
+### Repayment Summary
 
-* HTML5 User Interface Design
-* CSS3 Responsive Styling
-* JavaScript DOM Manipulation
-* Event-Driven Programming
-* Browser Local Storage
-* Dynamic Tab Management
+- Monthly EMI
+- Total Payment
+- Total Interest Payable
+- Principal Amount
+- Interest Percentage over the entire loan tenure
 
----
+### Amortization Schedule
 
-# 🚀 Features
+- Detailed payment schedule for every installment.
+- Displays:
+  - Payment Number
+  - Payment Date
+  - Opening Balance
+  - EMI Amount
+  - Principal Paid
+  - Interest Paid
+  - Closing Balance
 
-## 📝 Smart Text Editor
+### Data Visualization
 
-A clean writing environment designed for productivity.
+- Interactive Doughnut Chart showing:
+  - Principal Amount
+  - Total Interest
+- Line Chart displaying the remaining loan balance throughout the repayment period.
 
-### Features
+### Export Options
 
-✅ Real-Time Editing
+- Export the amortization schedule as a PDF document.
+- Export the amortization schedule as an Excel spreadsheet.
+- Print the complete repayment schedule.
 
-✅ Responsive Layout
+### User Interface
 
-✅ Instant Updates
-
-✅ Browser-Based Operation
-
----
-
-## 📑 Multi-Tab Support
-
-Manage multiple notes simultaneously.
-
-### Features
-
-✅ Create New Tabs
-
-✅ Switch Between Tabs
-
-✅ Close Tabs
-
-✅ Active Tab Highlighting
-
-✅ Tab Recovery After Refresh
-
-✅ Unlimited Tab Support
-
----
-
-## 💾 Auto Save System
-
-Automatically saves notes using Local Storage.
-
-### Automatically Saved
-
-* Editor Content
-* Open Tabs
-* Current Active Tab
-* Theme Preference
-* Font Selection
-* Font Size
-* Font Color
-* Spell Check Preference
-
-No manual save operation required.
+- Responsive design for Desktop, Tablet, and Mobile devices.
+- Modern banking-inspired interface.
+- Interactive sliders and numeric inputs.
+- Multiple viewing modes:
+  - Chart View
+  - Table View
+  - Combined View
 
 ---
 
-## 🌙 Dark / Light Theme
+## Technologies Used
 
-Switch between modern dark and light interfaces.
-
-### Features
-
-✅ One-Click Toggle
-
-✅ Persistent Theme Storage
-
-✅ Eye-Friendly Design
+- HTML5
+- Tailwind CSS
+- JavaScript (ES6)
+- Chart.js
+- jsPDF
+- SheetJS (XLSX)
 
 ---
 
-## 🎨 Font Customization
+## Libraries Used
 
-Personalize your workspace.
-
-### Available Fonts
-
-* Consolas
-* Arial
-* Courier New
-* Verdana
-* Georgia
-* Tahoma
-* Segoe UI
-* Roboto
-
-### Customizations
-
-✅ Font Family
-
-✅ Font Size
-
-✅ Font Color
-
-✅ Preference Persistence
+- Tailwind CSS
+- Chart.js
+- jsPDF
+- SheetJS (XLSX)
 
 ---
 
-## 🔍 Find & Replace
+## Browser Compatibility
 
-Quickly locate and modify text.
+This application works on all modern web browsers, including:
 
-### Features
-
-✅ Search Text
-
-✅ Highlight Found Text
-
-✅ Replace Text
-
-✅ Replace Multiple Occurrences
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+- Opera
 
 ---
 
-## 📊 Real-Time Statistics
+## Running the Project
 
-Track your writing progress.
+1. Clone this repository.
 
-### Displays
+```bash
+git clone https://github.com/your-username/emi-calculator.git
+```
 
-✅ Word Count
+2. Open the project directory.
 
-✅ Character Count
+```bash
+cd emi-calculator
+```
 
-Updates automatically while typing.
+3. Open the `index.html` file in your preferred web browser.
 
----
-
-## ✔ Spell Check Support
-
-Built-in browser spell checking.
-
-### Features
-
-✅ Enable Spell Check
-
-✅ Disable Spell Check
-
-✅ Saved User Preference
+No installation or server setup is required.
 
 ---
 
-## 🖨 Print Support
+## Project Structure
 
-Print notes directly from the browser.
-
-### Features
-
-✅ Print Current Note
-
-✅ Clean Printable Format
-
-✅ Browser Print Integration
-
----
-
-## 📄 Export Support
-
-Generate printer-friendly documents for PDF export.
-
-### Features
-
-✅ Export Window
-
-✅ PDF-Compatible Output
-
-✅ Preserved Text Layout
-
----
-
-## ⚡ Local Storage Integration
-
-Data remains available after:
-
-* Browser Refresh
-* Browser Restart
-* Computer Restart
-
-As long as browser storage is not cleared.
-
----
-
-# 🛠 Technologies Used
-
-| Technology        | Purpose                |
-| ----------------- | ---------------------- |
-| HTML5             | Structure              |
-| CSS3              | Styling                |
-| JavaScript ES6    | Functionality          |
-| Local Storage API | Data Persistence       |
-| DOM API           | Dynamic User Interface |
-
----
-
-# 📂 Project Structure
-
-```text
-Online-Notepad
-│
-├── index.html
-│
-├── style.css
-│
-├── script.js
-│
+```
+EMI-Calculator/
+│── index.html
 └── README.md
 ```
 
 ---
 
-# 🏗 Project Architecture
+## License
 
-```text
-User Interface
-       │
-       ▼
-HTML Structure
-       │
-       ▼
-JavaScript Logic
-       │
- ┌─────┼─────┐
- ▼     ▼     ▼
-Tabs Storage Editor
-       │
-       ▼
-Local Storage
-```
-
----
-
-# 🖥 User Interface Components
-
-## Header Section
-
-Displays:
-
-* Project Branding
-* Author Information
-
----
-
-## Tab Management Area
-
-Contains:
-
-* New Tab Button
-* Tab Navigation
-* Tab Close Button
-
----
-
-## Toolbar Section
-
-Contains:
-
-* Theme Toggle
-* Font Selector
-* Font Size Selector
-* Font Color Picker
-* Spell Check Toggle
-* Print Button
-* Export Button
-* Statistics Counter
-
----
-
-## Find & Replace Section
-
-Contains:
-
-* Find Input
-* Replace Input
-* Find Button
-* Replace Button
-
----
-
-## Editor Area
-
-Features:
-
-* Responsive Text Area
-* Spell Check Support
-* Auto Save
-* Custom Styling
-
----
-
-# ⚡ JavaScript Concepts Demonstrated
-
-## DOM Manipulation
-
-```javascript
-document.getElementById()
-document.createElement()
-appendChild()
-innerHTML
-```
-
----
-
-## Event Handling
-
-```javascript
-onclick
-onchange
-keyup
-window.onload
-```
-
----
-
-## Local Storage
-
-```javascript
-localStorage.setItem()
-localStorage.getItem()
-JSON.stringify()
-JSON.parse()
-```
-
----
-
-## Dynamic Rendering
-
-```javascript
-renderTabs()
-switchTab()
-closeTab()
-updateCounter()
-```
-
----
-
-# ▶ Installation & Usage
-
-## Method 1: Direct Browser
-
-1. Download the project.
-2. Extract all files.
-3. Open:
-
-```text
-index.html
-```
-
-in any modern web browser.
-
----
-
-## Method 2: VS Code Live Server
-
-### Step 1
-
-Install:
-
-* Live Server Extension
-
-### Step 2
-
-Right-click:
-
-```text
-index.html
-```
-
-### Step 3
-
-Select:
-
-```text
-Open with Live Server
-```
-
----
-
-# 📸 Screenshots
-
-## Main Editor
-
-```text
-+--------------------------------------------------+
-| Online Notepad                                   |
-+--------------------------------------------------+
-| New Tab | Theme | Font | Size | Export | Print   |
-+--------------------------------------------------+
-|                                                  |
-|                                                  |
-|                Writing Area                      |
-|                                                  |
-|                                                  |
-+--------------------------------------------------+
-```
-
----
-
-## Dark Mode
-
-```text
-+--------------------------------------------------+
-| Online Notepad (Dark Theme)                      |
-+--------------------------------------------------+
-| New Tab | Theme | Font | Size | Export | Print   |
-+--------------------------------------------------+
-|                                                  |
-|                                                  |
-|               Writing Area                       |
-|                                                  |
-|                                                  |
-+--------------------------------------------------+
-```
-
----
-
-# 🎯 Learning Outcomes
-
-This project helps developers learn:
-
-✅ HTML5 Layout Design
-
-✅ CSS3 Styling
-
-✅ JavaScript Programming
-
-✅ DOM Manipulation
-
-✅ Event Handling
-
-✅ Local Storage
-
-✅ Dynamic Rendering
-
-✅ Browser APIs
-
-✅ Responsive Design
-
-✅ Front-End Development
-
----
-
-# 👨‍💻 Author
-
-## Soumyadeep Basu
-
-Passionate Developer focused on:
-
-* Web Development
-* Java Development
-* Desktop Applications
-* User Experience Design
-
-### Crafted with ❤️ by Soumyadeep Basu
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
-Feel free to use, modify, and distribute it for educational and personal purposes.
-
----
+This project is open-source and intended for educational and learning purposes. You are free to use, modify, and distribute it in accordance with the applicable license.
