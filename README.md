@@ -1,6 +1,6 @@
-# EMI Calculator
+# BANK_EMI_CALCULATOR
 
-A modern, responsive **EMI (Equated Monthly Installment) Calculator** built using **HTML5**, **Tailwind CSS**, **JavaScript**, and **Chart.js**. The application enables users to calculate loan EMIs, visualize loan repayment, generate an amortization schedule, and export repayment details in PDF and Excel formats.
+**BANK_EMI_CALCULATOR** is a modern, responsive web application that calculates Equated Monthly Installments (EMIs) for loans. It provides a detailed repayment summary, generates an amortization schedule, visualizes loan repayment through interactive charts, and allows users to export the repayment schedule in PDF and Excel formats.
 
 ---
 
@@ -26,8 +26,7 @@ A modern, responsive **EMI (Equated Monthly Installment) Calculator** built usin
 
 ### Amortization Schedule
 
-- Detailed payment schedule for every installment.
-- Displays:
+- Displays a complete repayment schedule including:
   - Payment Number
   - Payment Date
   - Opening Balance
@@ -38,10 +37,10 @@ A modern, responsive **EMI (Equated Monthly Installment) Calculator** built usin
 
 ### Data Visualization
 
-- Interactive Doughnut Chart showing:
+- Interactive Doughnut Chart displaying:
   - Principal Amount
   - Total Interest
-- Line Chart displaying the remaining loan balance throughout the repayment period.
+- Interactive Line Chart showing the remaining loan balance throughout the repayment period.
 
 ### Export Options
 
@@ -53,7 +52,7 @@ A modern, responsive **EMI (Equated Monthly Installment) Calculator** built usin
 
 - Responsive design for Desktop, Tablet, and Mobile devices.
 - Modern banking-inspired interface.
-- Interactive sliders and numeric inputs.
+- Interactive sliders and numeric input fields.
 - Multiple viewing modes:
   - Chart View
   - Table View
@@ -72,18 +71,9 @@ A modern, responsive **EMI (Equated Monthly Installment) Calculator** built usin
 
 ---
 
-## Libraries Used
-
-- Tailwind CSS
-- Chart.js
-- jsPDF
-- SheetJS (XLSX)
-
----
-
 ## Browser Compatibility
 
-This application works on all modern web browsers, including:
+This application is compatible with all modern web browsers, including:
 
 - Google Chrome
 - Microsoft Edge
@@ -95,28 +85,28 @@ This application works on all modern web browsers, including:
 
 ## Running the Project
 
-1. Clone this repository.
+1. Clone the repository.
 
 ```bash
-git clone https://github.com/your-username/emi-calculator.git
+git clone https://github.com/your-username/BANK_EMI_CALCULATOR.git
 ```
 
 2. Open the project directory.
 
 ```bash
-cd emi-calculator
+cd BANK_EMI_CALCULATOR
 ```
 
 3. Open the `index.html` file in your preferred web browser.
 
-No installation or server setup is required.
+No additional installation or server setup is required.
 
 ---
 
 ## Project Structure
 
 ```
-EMI-Calculator/
+BANK_EMI_CALCULATOR/
 │── index.html
 └── README.md
 ```
