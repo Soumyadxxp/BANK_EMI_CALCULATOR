@@ -1,6 +1,6 @@
 # BANK_EMI_CALCULATOR
 
-**BANK_EMI_CALCULATOR** is a modern, responsive web application that calculates Equated Monthly Installments (EMIs) for loans. It provides a detailed repayment summary, generates an amortization schedule, visualizes loan repayment through interactive charts, and allows users to export the repayment schedule in PDF and Excel formats.
+**BANK EMI CALCULATOR** is a modern, responsive web application that calculates Equated Monthly Installments (EMIs) for loans. It provides a detailed repayment summary, generates an amortization schedule, visualizes loan repayment through interactive charts, and allows users to export the repayment schedule in PDF and Excel formats.
 
 ---
 
